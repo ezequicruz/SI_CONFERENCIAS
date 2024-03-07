@@ -10,14 +10,15 @@
 		<script defer src="../app.js"></script>
 </head>
 <body>
-	<h1>INTRODUCE TU NUMERO DE CUENTA</h1>
-    <div class="contenedor">
-        <form action="" id="formulario" class="formulario">
-            <input type="text" id="link" placeholder="Escribe el texto o URL" />
-            <button class="btn">Generar QR</button>
+	<h1 class="bg-slate-600 text-white p-2 text-2xl font-bold mx-auto text-center">GENERA EL QR DE TU NUMERO DE CUENTA</h1>
+    <div class="contenedor border-2 border-blue-950 p-6 w-80 mx-auto mt-6">
+        <form action="" id="formulario" class="formulario" class="mt-6">
+			<span class="text-blue-950 p-2 text-xl font-bold ">INTRODUCE TU NUMERO DE CUENTA</span>
+            <input type="text" id="link" placeholder="318297268" class="mt-4"/>
+            <button class="bg-gray-500 hover:bg-blue-700 p-2 rounded-lg mt-4">Generar QR</button>
         </form>
 
-        <div id="contenedorQR" class="contenedorQR"></div>
+        <div id="contenedorQR" class="mt-4"></div>
     </div>
 </body>
 </html>
